@@ -1,11 +1,13 @@
-# SantMoses
-It has new phrase re-scoring method
-Each java code has its own description.
-#This is alternative version of Moses formatted phrase table creation. The output will be the same format as Moses toolkit. The output phrase table is also accepted by moses decoder.
+# SantMoses: an alternative version of Moses formatted phrase table creation.
+This is a log-linear phrase scoring method with more features can be applied.
 
-Developer can produce custom phrases (by his own algorithm) and append with the phrase extracted file (extract.direct and extract.inv file) along with the alignment as well as training file and the code produces moses format phrase table.
+Linguistic phrases or example based phrases can be incorporated within the phrase table with two steps:
 
-#each java file describe how to run and how its works.
+1. Add linguistic phrases/ EBMT phrases with moses phrase extract file or run "PhraseExtraction.java" and add thereafter. (e.g. Developer can produce custom phrases (by his own algorithm) and append with the phrase extracted file (extract.direct and extract.inv file) along with the alignment and training files. This code will produce moses formated phrase table in step 2.)
+2. run phrase scoring code to produce phrase table. The output phrase table is the same format as given by Moses toolkit. Run Moses decoder with this output phrase table.
+
+
+#Each java file has full description how they runs and how they works.
 
 #If you are using this code please cite:
 
