@@ -7,9 +7,9 @@ Linguistic phrases or example based phrases can be incorporated within the phras
 2. run phrase scoring code to produce phrase table. The output phrase table is the same format as given by Moses toolkit. Run Moses decoder with this output phrase table.
 
 
-#Each java file has full description how they runs and how they works.
+Each java file has full description how they runs and how they works.
 
-#If you are using this code please cite:
+#Please cite:
 
 @inproceedings{pal2013impact,
   title={Impact of Linguistically Motivated Shallow Phrases in PB-SMT},
